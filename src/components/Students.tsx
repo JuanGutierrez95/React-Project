@@ -1,9 +1,5 @@
 import { FC } from "react";
-
-/*Definimos una interfaz llamada StudentsProps que especifica que el componente espera recibir una propiedad llamada name de tipo string. */
-interface StudentsProps {
-  name: string;
-}
+import StudentsProps from "../interfaces/Student";
 
 /*
 Luego, creamos el componente Students que recibe un objeto destructurado de las propiedades y extrae name.
